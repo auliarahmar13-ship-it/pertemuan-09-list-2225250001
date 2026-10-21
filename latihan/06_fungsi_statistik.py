@@ -1,5 +1,4 @@
 
-# Fungsi untuk menghitung rata-rata
 def rata_rata(data):
     if len(data) == 0:
         return 0
