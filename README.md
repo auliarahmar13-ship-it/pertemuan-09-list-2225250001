@@ -42,9 +42,57 @@ Pastikan terminal berada di folder utama repositori.
 
 Jalankan program praktik menggunakan perintah:
 
-```powershell
+```powershe## Cara Menjalankan Program
+
+Pastikan Python sudah terpasang di komputer dan terminal berada di folder utama repository `pertemuan-09-list-2225250001`.
+
+### A. Menjalankan Program Latihan
+
+Jalankan setiap file latihan menggunakan perintah berikut:
+
+**1. Membuat List**
+```bash
+python latihan/01_buat_list.py
+```
+
+**2. Indeks dan Slicing**
+```bash
+python latihan/02_indeks_slicing.py
+```
+
+**3. Manipulasi List**
+```bash
+python latihan/03_manipulasi_list.py
+```
+
+**4. Agregasi Nilai**
+```bash
+python latihan/04_agregasi_nilai.py
+```
+
+**5. Filter Kelulusan**
+```bash
+python latihan/05_filter_kelulusan.py
+```
+
+**6. Fungsi Statistik**
+```bash
+python latihan/06_fungsi_statistik.py
+```
+
+### B. Menjalankan Program Praktik
+
+Jalankan program analisis nilai mahasiswa dengan perintah:
+
+```bash
 python praktik/analisis_nilai_mahasiswa.py
 ```
+
+Program akan menampilkan seluruh nilai mahasiswa, jumlah data, total nilai, rata-rata, nilai minimum dan maksimum, daftar nilai lulus, jumlah mahasiswa lulus, serta jumlah mahasiswa yang belum lulus.
+
+### C. Menjalankan Pengujian Test Case
+
+Pengujian test case untuk fungsi statistik dan kelulusan juga dapat dijalankan melalui program praktik di atas. Hasil pengujian akan ditampilkan pada bagian `PENGUJIAN TEST CASE`.
 
 ## Hasil Program
 
